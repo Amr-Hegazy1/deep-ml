@@ -47,17 +47,19 @@ def multi_head_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray, n_heads: i
     Returns:
         Attention output of shape (seq_len, d_model)
     """
-    hidden_dim = Q.shape[1]
+    seq_len, hidden_dim = Q.shape
     head_dim = hidden_dim // n_heads
 
-    output = None
+    
+    output = np.empty((seq_len, hidden_dim))
 
     for i in range(n_heads):
         start = i * head_dim
         end = (i + 1) * head_dim
-        partial_attn = self_attention(Q[:, start:end], K[:, start:end], V[:, start:end])
-        #print(partial_attn)
         
-        output = np.concatenate([output, partial_attn], axis=1) if output is not None else partial_attn
+        
+        partial_attn = self_attention(Q[:, start:end], K[:, start:end], V[:, start:end])
+        
+        output[:, start:end] = partial_attn
 
     return output
