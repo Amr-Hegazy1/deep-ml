@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T23:23:27.781Z",
+  "generated_at": "2026-10-13T19:34:44.356Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -91,6 +91,19 @@
       "last_pushed_at": "2026-10-11T23:23:28.088Z",
       "language": "python",
       "lines": 49
+    },
+    "problem:394": {
+      "kind": "problem",
+      "id": "394",
+      "title": "Implement Speculative Decoding Verification",
+      "difficulty": "hard",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/394",
+      "path": "problems/0394-implement-speculative-decoding-verification",
+      "first_solved_at": "2026-10-13T19:34:41.031Z",
+      "last_pushed_at": "2026-10-13T19:34:41.031Z",
+      "language": "python",
+      "lines": 66
     }
   }
 }
