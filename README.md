@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**9** solved · 9 problems · 0 labs · 0 math
+**10** solved · 10 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -17,6 +17,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Continuous Batching (In-Flight Batching) Simulator](https://www.deep-ml.com/problems/425) | medium | 2026-10-11 | [solution](problems/0425-continuous-batching-in-flight-batching-simulator) |
 | [Estimate KV Cache Size from Model Config](https://www.deep-ml.com/problems/418) | medium | 2026-10-11 | [solution](problems/0418-estimate-kv-cache-size-from-model-config) |
 | [KV Cache for Efficient Autoregressive Attention](https://www.deep-ml.com/problems/376) | medium | 2026-10-11 | [solution](problems/0376-kv-cache-for-efficient-autoregressive-attention) |
+| [Quantization Quality Check: KL Divergence and Top-1 Agreement](https://www.deep-ml.com/problems/1437) | medium | 2026-10-14 | [solution](problems/1437-quantization-quality-check-kl-divergence-and-top-1-agreement) |
 | [Implement a Sparse Mixture of Experts Layer](https://www.deep-ml.com/problems/125) | hard | 2026-10-11 | [solution](problems/0125-implement-a-sparse-mixture-of-experts-layer) |
 | [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-10-11 | [solution](problems/0094-implement-multi-head-attention) |
 | [Implement Speculative Decoding Verification](https://www.deep-ml.com/problems/394) | hard | 2026-10-13 | [solution](problems/0394-implement-speculative-decoding-verification) |
