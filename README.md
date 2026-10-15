@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**12** solved · 12 problems · 0 labs · 0 math
+**13** solved · 13 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -20,6 +20,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [MMLU Log-Probability Scoring](https://www.deep-ml.com/problems/316) | medium | 2026-10-14 | [solution](problems/0316-mmlu-log-probability-scoring) |
 | [Quantization Quality Check: KL Divergence and Top-1 Agreement](https://www.deep-ml.com/problems/1437) | medium | 2026-10-14 | [solution](problems/1437-quantization-quality-check-kl-divergence-and-top-1-agreement) |
 | [Sliding Window Attention](https://www.deep-ml.com/problems/388) | medium | 2026-10-15 | [solution](problems/0388-sliding-window-attention) |
+| [Sliding Window KV Cache Truncation](https://www.deep-ml.com/problems/1053) | medium | 2026-10-15 | [solution](problems/1053-sliding-window-kv-cache-truncation) |
 | [Implement a Sparse Mixture of Experts Layer](https://www.deep-ml.com/problems/125) | hard | 2026-10-11 | [solution](problems/0125-implement-a-sparse-mixture-of-experts-layer) |
 | [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-10-11 | [solution](problems/0094-implement-multi-head-attention) |
 | [Implement Speculative Decoding Verification](https://www.deep-ml.com/problems/394) | hard | 2026-10-13 | [solution](problems/0394-implement-speculative-decoding-verification) |

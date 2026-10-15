@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:05:46.649Z",
+  "generated_at": "2026-10-15T16:12:51.331Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -156,6 +156,19 @@
       "last_pushed_at": "2026-10-15T16:05:46.692Z",
       "language": "python",
       "lines": 43
+    },
+    "problem:1053": {
+      "kind": "problem",
+      "id": "1053",
+      "title": "Sliding Window KV Cache Truncation",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/1053",
+      "path": "problems/1053-sliding-window-kv-cache-truncation",
+      "first_solved_at": "2026-10-15T16:12:50.661Z",
+      "last_pushed_at": "2026-10-15T16:12:50.661Z",
+      "language": "python",
+      "lines": 23
     }
   }
 }
