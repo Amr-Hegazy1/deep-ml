@@ -28,6 +28,7 @@ def mmlu_log_prob_score(log_probs: list, correct_answers: list) -> dict:
     """
 
     log_probs = np.array(log_probs)
+    correct_answers = np.array(correct_answers)
     probs = np.exp(rowwise_log_softmax(log_probs))
     
     
@@ -36,18 +37,18 @@ def mmlu_log_prob_score(log_probs: list, correct_answers: list) -> dict:
     sum_probs = 0
     n = len(correct_answers)
 
-    for prob, correct_answer, log_prob in zip(probs, correct_answers, log_probs):
-        predicted_answer = np.argmax(log_prob, axis=0)
+    
+    predicted_answers = np.argmax(log_probs, axis=1).flatten()
 
-        if predicted_answer == correct_answer:
-            correct += 1
-        sum_probs += prob[correct_answer]
-        predictions.append(int(predicted_answer))
+    correct = int(np.sum(predicted_answers == correct_answers))
+    
+    sum_probs = np.sum(probs[np.arange(len(probs)), correct_answers])
+    
 
 
 
     return {
         'accuracy': round(correct / n, 4),
-        'predictions': predictions,
+        'predictions': list(predicted_answers),
         'avg_correct_prob': round(sum_probs / n, 4)
     }

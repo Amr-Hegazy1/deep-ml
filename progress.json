@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:51:29.343Z",
+  "generated_at": "2026-10-15T00:03:30.912Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -140,9 +140,9 @@
       "url": "https://www.deep-ml.com/problems/316",
       "path": "problems/0316-mmlu-log-probability-scoring",
       "first_solved_at": "2026-10-14T23:51:24.383Z",
-      "last_pushed_at": "2026-10-14T23:51:24.383Z",
+      "last_pushed_at": "2026-10-15T00:03:25.722Z",
       "language": "python",
-      "lines": 54
+      "lines": 55
     }
   }
 }
