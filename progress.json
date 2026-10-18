@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:15:09.129Z",
+  "generated_at": "2026-10-18T16:53:40.462Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -195,6 +195,19 @@
       "last_pushed_at": "2026-10-18T16:15:09.213Z",
       "language": "python",
       "lines": 48
+    },
+    "problem:458": {
+      "kind": "problem",
+      "id": "458",
+      "title": "Implement Sigmoid MoE Router with Bias Correction",
+      "difficulty": "hard",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/458",
+      "path": "problems/0458-implement-sigmoid-moe-router-with-bias-correction",
+      "first_solved_at": "2026-10-18T16:53:40.527Z",
+      "last_pushed_at": "2026-10-18T16:53:40.527Z",
+      "language": "python",
+      "lines": 46
     }
   }
 }
