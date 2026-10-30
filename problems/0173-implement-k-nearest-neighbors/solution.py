@@ -14,16 +14,8 @@ def k_nearest_neighbors(points, query_point, k):
         When distances are tied, points appearing earlier in the input list come first.
     """
     
-    points_np = np.array(points)
-    query_point = np.array([query_point[0], query_point[1]])
-
-    distances = [(i, np.linalg.norm(point - query_point)) for i, point in enumerate(points_np)]
-
-    distances_sorted = sorted(distances, key=lambda x: (x[1], x[0]))
-
-
-    top_k = distances_sorted[:k]
-
-    result = [points[e[0]] for e in top_k]
-
-    return result
+    P = np.asarray(points, dtype=float)
+    q = np.asarray(query_point, dtype=float)
+    d = ((P - q) ** 2).sum(axis=1)              
+    idx = np.argsort(d, kind='stable')[:k]      
+    return [points[i] for i in idx]
