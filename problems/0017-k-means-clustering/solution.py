@@ -1,40 +1,13 @@
 import numpy as np
 
-def k_means_clustering(points: list[tuple[float, ...]], k: int, initial_centroids: list[tuple[float, ...]], max_iterations: int) -> list[tuple[float, ...]]:
-	
-	final_centroids = np.array(initial_centroids)
-
-	points = np.array(points)
-	
-	# print(points)
-
-	# print(final_centroids)
-
-	for _ in range(1):
-	
-		distances = np.linalg.norm(points[:, None, :] - final_centroids[None, :, :], axis=2)
-
-		# print(distances)
-
-		min_index_each_point = np.argsort(distances, axis=1)[:, 0]
-
-		# print(min_index_each_point)
-
-		clusters = []
-		for i in range(k):
-
-			cluster = points[min_index_each_point == i]
-			# print(cluster)
-			
-
-			clusters.append(cluster)
-
-		clusters = np.array(clusters)
-
-		final_centroids = np.mean(clusters, axis=1)
-		# print(final_centroids)
-
-	final_centroids = np.round(final_centroids, decimals=4)
-
-
-	return list(map(tuple, final_centroids))
+def k_means_clustering(points, k, initial_centroids, max_iterations):
+    X = np.asarray(points, dtype=float)
+    C = np.asarray(initial_centroids, dtype=float)
+    for _ in range(max_iterations):
+        labels = np.linalg.norm(X[:, None, :] - C[None, :, :], axis=2).argmin(axis=1)  # (n,)
+        new_C = np.array([X[labels == j].mean(axis=0) if np.any(labels == j) else C[j]
+                          for j in range(k)])                                            # (k, d)
+        if np.allclose(new_C, C):   # converged, stop early
+            break
+        C = new_C
+    return [tuple(c) for c in np.round(C, 4)]
