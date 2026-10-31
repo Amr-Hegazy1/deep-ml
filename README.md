@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**20** solved · 20 problems · 0 labs · 0 math
+**21** solved · 21 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -18,6 +18,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Single Neuron](https://www.deep-ml.com/problems/24) | easy | 2026-10-18 | [solution](problems/0024-single-neuron) |
 | [Continuous Batching (In-Flight Batching) Simulator](https://www.deep-ml.com/problems/425) | medium | 2026-10-11 | [solution](problems/0425-continuous-batching-in-flight-batching-simulator) |
 | [Estimate KV Cache Size from Model Config](https://www.deep-ml.com/problems/418) | medium | 2026-10-11 | [solution](problems/0418-estimate-kv-cache-size-from-model-config) |
+| [Find the Best Gini-Based Split for a Binary Decision Tree](https://www.deep-ml.com/problems/138) | medium | 2026-10-31 | [solution](problems/0138-find-the-best-gini-based-split-for-a-binary-decision-tree) |
 | [Gaussian Naive Bayes Classifier](https://www.deep-ml.com/problems/261) | medium | 2026-10-31 | [solution](problems/0261-gaussian-naive-bayes-classifier) |
 | [Implement K-Nearest Neighbors](https://www.deep-ml.com/problems/173) | medium | 2026-10-30 | [solution](problems/0173-implement-k-nearest-neighbors) |
 | [K-Means Clustering](https://www.deep-ml.com/problems/17) | medium | 2026-10-31 | [solution](problems/0017-k-means-clustering) |
