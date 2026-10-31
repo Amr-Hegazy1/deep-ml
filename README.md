@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**17** solved · 17 problems · 0 labs · 0 math
+**18** solved · 18 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -18,6 +18,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Continuous Batching (In-Flight Batching) Simulator](https://www.deep-ml.com/problems/425) | medium | 2026-10-11 | [solution](problems/0425-continuous-batching-in-flight-batching-simulator) |
 | [Estimate KV Cache Size from Model Config](https://www.deep-ml.com/problems/418) | medium | 2026-10-11 | [solution](problems/0418-estimate-kv-cache-size-from-model-config) |
 | [Implement K-Nearest Neighbors](https://www.deep-ml.com/problems/173) | medium | 2026-10-30 | [solution](problems/0173-implement-k-nearest-neighbors) |
+| [K-Means Clustering](https://www.deep-ml.com/problems/17) | medium | 2026-10-31 | [solution](problems/0017-k-means-clustering) |
 | [KV Cache for Efficient Autoregressive Attention](https://www.deep-ml.com/problems/376) | medium | 2026-10-11 | [solution](problems/0376-kv-cache-for-efficient-autoregressive-attention) |
 | [MMLU Log-Probability Scoring](https://www.deep-ml.com/problems/316) | medium | 2026-10-14 | [solution](problems/0316-mmlu-log-probability-scoring) |
 | [Quantization Quality Check: KL Divergence and Top-1 Agreement](https://www.deep-ml.com/problems/1437) | medium | 2026-10-14 | [solution](problems/1437-quantization-quality-check-kl-divergence-and-top-1-agreement) |
