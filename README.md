@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**28** solved · 28 problems · 0 labs · 0 math
+**29** solved · 29 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -26,6 +26,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [K-Means Clustering](https://www.deep-ml.com/problems/17) | medium | 2026-10-31 | [solution](problems/0017-k-means-clustering) |
 | [KV Cache for Efficient Autoregressive Attention](https://www.deep-ml.com/problems/376) | medium | 2026-10-11 | [solution](problems/0376-kv-cache-for-efficient-autoregressive-attention) |
 | [MMLU Log-Probability Scoring](https://www.deep-ml.com/problems/316) | medium | 2026-10-14 | [solution](problems/0316-mmlu-log-probability-scoring) |
+| [Product Rule for Derivatives](https://www.deep-ml.com/problems/309) | medium | 2026-11-03 | [solution](problems/0309-product-rule-for-derivatives) |
 | [Quantization Quality Check: KL Divergence and Top-1 Agreement](https://www.deep-ml.com/problems/1437) | medium | 2026-10-14 | [solution](problems/1437-quantization-quality-check-kl-divergence-and-top-1-agreement) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-18 | [solution](problems/0025-single-neuron-with-backpropagation) |
 | [Sliding Window Attention](https://www.deep-ml.com/problems/388) | medium | 2026-10-15 | [solution](problems/0388-sliding-window-attention) |
