@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**29** solved · 29 problems · 0 labs · 0 math
+**30** solved · 30 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -16,6 +16,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-10-11 | [solution](problems/0001-matrix-vector-dot-product) |
 | [Sigmoid Activation Function Understanding](https://www.deep-ml.com/problems/22) | easy | 2026-10-11 | [solution](problems/0022-sigmoid-activation-function-understanding) |
 | [Single Neuron](https://www.deep-ml.com/problems/24) | easy | 2026-10-18 | [solution](problems/0024-single-neuron) |
+| [Byte Pair Encoding (BPE) Tokenizer](https://www.deep-ml.com/problems/380) | medium | 2026-11-05 | [solution](problems/0380-byte-pair-encoding-bpe-tokenizer) |
 | [Continuous Batching (In-Flight Batching) Simulator](https://www.deep-ml.com/problems/425) | medium | 2026-10-11 | [solution](problems/0425-continuous-batching-in-flight-batching-simulator) |
 | [Decision Tree Pruning with Cost-Complexity](https://www.deep-ml.com/problems/285) | medium | 2026-11-03 | [solution](problems/0285-decision-tree-pruning-with-cost-complexity) |
 | [Estimate KV Cache Size from Model Config](https://www.deep-ml.com/problems/418) | medium | 2026-10-11 | [solution](problems/0418-estimate-kv-cache-size-from-model-config) |
