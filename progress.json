@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T22:42:44.628Z",
+  "generated_at": "2026-11-15T23:44:56.167Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -429,6 +429,19 @@
       "last_pushed_at": "2026-11-15T22:42:44.477Z",
       "language": "python",
       "lines": 37
+    },
+    "problem:798": {
+      "kind": "problem",
+      "id": "798",
+      "title": "Linear Discriminant Analysis (LDA) Binary Classifier",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/798",
+      "path": "problems/0798-linear-discriminant-analysis-lda-binary-classifier",
+      "first_solved_at": "2026-11-15T23:44:56.179Z",
+      "last_pushed_at": "2026-11-15T23:44:56.179Z",
+      "language": "python",
+      "lines": 42
     }
   }
 }
