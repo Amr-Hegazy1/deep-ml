@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:32:21.833Z",
+  "generated_at": "2026-11-24T22:46:54.850Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -481,6 +481,19 @@
       "last_pushed_at": "2026-11-24T22:32:22.110Z",
       "language": "python",
       "lines": 28
+    },
+    "problem:1476": {
+      "kind": "problem",
+      "id": "1476",
+      "title": "Graph Attention Layer with Masked Softmax",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/1476",
+      "path": "problems/1476-graph-attention-layer-with-masked-softmax",
+      "first_solved_at": "2026-11-24T22:46:55.089Z",
+      "last_pushed_at": "2026-11-24T22:46:55.089Z",
+      "language": "python",
+      "lines": 70
     }
   }
 }
