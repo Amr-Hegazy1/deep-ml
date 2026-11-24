@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**34** solved · 34 problems · 0 labs · 0 math
+**35** solved · 35 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [Graph Representations: Edge Lists, CSR and the Normalized Adjacency](https://www.deep-ml.com/problems/1472) | easy | 2026-11-24 | [solution](problems/1472-graph-representations-edge-lists-csr-and-the-normalized-adjacency) |
 | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15) | easy | 2026-10-31 | [solution](problems/0015-linear-regression-using-gradient-descent) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-10-11 | [solution](problems/0001-matrix-vector-dot-product) |
 | [Reasoning Effort System Prompt Injection](https://www.deep-ml.com/problems/761) | easy | 2026-11-06 | [solution](problems/0761-reasoning-effort-system-prompt-injection) |
