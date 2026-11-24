@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:46:38.280Z",
+  "generated_at": "2026-11-24T22:25:44.265Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -455,6 +455,19 @@
       "last_pushed_at": "2026-11-24T21:46:38.402Z",
       "language": "python",
       "lines": 60
+    },
+    "problem:1479": {
+      "kind": "problem",
+      "id": "1479",
+      "title": "Graph Readout and Mini-Batching with a Batch Vector",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/1479",
+      "path": "problems/1479-graph-readout-and-mini-batching-with-a-batch-vector",
+      "first_solved_at": "2026-11-24T22:25:44.455Z",
+      "last_pushed_at": "2026-11-24T22:25:44.455Z",
+      "language": "python",
+      "lines": 84
     }
   }
 }
